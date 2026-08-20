@@ -1,0 +1,14 @@
+a=int(input("Enter a number one "))
+b=int(input("Enter a number two"))
+operation=input("Enter a operater:+,-,*,/")
+if(operation=="+"):
+    print("Addition:",a+b)
+elif(operation=="-"):
+    print("Sub:",a-b)
+elif(operation=="*"):
+    print("mult:",a*b)
+elif(operation=="/"):
+    if(a!=0):
+        print("div:",a/b)
+    else:
+        print("error: division by 0 is not allowed")
